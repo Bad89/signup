@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/pages/Home";
-import MessengerCustomerChat from "react-messenger-customer-chat";
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 function App() {
   return (
