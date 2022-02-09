@@ -5,17 +5,30 @@ import "./App.css";
 import Home from "./components/pages/Home";
 
 
-function App() {
+
+
+function App () {
   return (
+
+   
+
     <>
+    
+
+
       <Router>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
         </Switch>
       </Router>
+
+     
       
     </>
+
+     
+
   );
 }
 
