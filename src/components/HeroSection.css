@@ -35,8 +35,7 @@ video {
   color: rgb(0, 0, 0);
   font-size: 30px;
   margin-top: -20px;
-  flex-flow: column nowrap;
-  object-fit: contain;
+  
   }
 
   .hero-container > h3 {
