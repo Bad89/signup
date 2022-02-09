@@ -7,50 +7,7 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.home,
-  .services,
-  .products,
-  .sign-up  {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.home,
-  .services,
-  .products,
-  .sign-up  {
-  width: calc(100% + 2rem);
-  margin: 0 -1rem 1rem -1rem;
-}
-
-.home,
-  .services,
-  .products,
-  .sign-up  {
-  padding: 1rem;
-  flex: 0 1 100%;
-}
-
-@media all and (min-width: 576px) {
-  .home,
-  .services,
-  .products,
-  .sign-up {
-    flex: 0 1 50%;
-    padding-bottom: 0.25rem;
-  }
-}
-
-@media all and (min-width: 992px) { 
-  main[role="main"] {
-    flex: 0 1 66.333333%;
-  }
-  aside[role="complementary"] {
-    flex: 0 1 33.333333%;
-    margin-top: 0;
-  }
-}
+.
 
 
 .home,
