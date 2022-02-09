@@ -9,10 +9,10 @@ const Responsive = () => {
     const isDesktopOrLaptop = useMediaQuery({
       query: '(min-width: 1224px)'
     })
-    const isBigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
-    const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
-    const isPortrait = useMediaQuery({ query: '(orientation: portrait)' })
-    const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
+    const BigScreen = useMediaQuery({ query: '(min-width: 1824px)' })
+    const TabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+    const Portrait = useMediaQuery({ query: '(orientation: portrait)' })
+    const Retina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
   
     return <div>
       <Router>
