@@ -102,13 +102,15 @@
   }
   
   @media only screen and (min-width: 1200px) {
-    .content__blog__container {
+    .content__blog__container,
+    .cards__item__text {
       width: 84%;
     }
   }
   
   @media only screen and (min-width: 1024px) {
-    .cards__items {
+    .cards__items,
+    .cards__item__text {
       display: flex;
     }
   }
