@@ -16,7 +16,7 @@ video {
   width: 100%;
   display: flex;
   flex-direction: column;
-  flex-flow: column nowrap;
+  
   justify-content: center;
   align-items: center;
   box-shadow: inset 0 0 0 0px rgba(124, 124, 124, 0.2);
@@ -35,7 +35,7 @@ video {
   color: rgb(0, 0, 0);
   font-size: 30px;
   margin-top: -20px;
-
+  flex-flow: column nowrap;
   }
 
   .hero-container > h3 {
