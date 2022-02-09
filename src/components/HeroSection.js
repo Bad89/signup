@@ -9,6 +9,7 @@ function HeroSection() {
       <video src="/videos/video-2.mp4" autoPlay loop muted />
 
       <h1>EXPLORE YOUR PET</h1>
+      
 
       <p> </p>
       <p> </p>
