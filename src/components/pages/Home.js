@@ -9,7 +9,7 @@ function Home() {
     <>
       <HeroSection />
       <Cards />
-      <MessengerCustomerChat pageId="100077654544538" appId="481482256871485" />
+      <MessengerCustomerChat pageId="101589709123007" appId="481482256871485" />
     </>
   );
 }
