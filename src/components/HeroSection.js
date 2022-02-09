@@ -9,6 +9,9 @@ function HeroSection() {
       <video src="/videos/video-2.mp4" autoPlay loop muted />
 
       <h1>EXPLORE YOUR PET</h1>
+      <h2>"Free Chat with Veterinarian for Pet Health"</h2>
+      <h3> until 2022 April!</h3>
+      
       
 
       <p> </p>
