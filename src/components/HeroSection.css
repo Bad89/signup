@@ -6,7 +6,7 @@ video {
   z-index: -1;
 }
 
-@media only screen and (min-width: 1224px){
+
  
 .hero-container {
   background: url(/public/images/pets-wallpaper-12.jpg) center center/cover
@@ -22,7 +22,7 @@ video {
   object-fit: contain;
   
 }
-}
+
 
 .hero-container > h1 {
   color: rgb(0, 0, 0);

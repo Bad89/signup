@@ -1,7 +1,7 @@
 
-@media only screen and (min-width: 1224px){
+@media only screen and (max-width: 1224px){
  
-
+}
 
 
 * {
@@ -13,7 +13,7 @@
 
 
 
-
+@media only screen and (min-width: 1224px){
 .home,
 .services,
 .products,
@@ -27,8 +27,8 @@
   columns: 100px;
   
   
-}
-  
+  }
+}  
 
 
 .services {
@@ -58,4 +58,3 @@
   font-size: 100px;
 }
 
-}
