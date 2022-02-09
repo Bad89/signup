@@ -58,7 +58,6 @@ function Navbar() {
                 ARTICLE upComing
               </Link>
             </li>
-            
           </ul>
           {button && <Button buttonStyle="btn--outline">HOME upComing</Button>}
         </div>
