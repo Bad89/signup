@@ -20,7 +20,7 @@ video {
   justify-content: center;
   align-items: center;
   box-shadow: inset 0 0 0 0px rgba(124, 124, 124, 0.2);
-  object-fit: contain;
+  
   
 }
 
@@ -36,6 +36,7 @@ video {
   font-size: 30px;
   margin-top: -20px;
   flex-flow: column nowrap;
+  object-fit: contain;
   }
 
   .hero-container > h3 {
