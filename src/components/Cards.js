@@ -2,14 +2,13 @@ import React from "react";
 import CardItem from "./CardItem";
 import "./Cards.css";
 
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+
 
 
 function Cards() {
   return (
 
-    <Carousel>
+    
 
     <div className="cards">
       <h1>Check & Chat on right bottom for consultation before action</h1>
@@ -40,7 +39,7 @@ function Cards() {
       </div>
     </div>
 
-    </Carousel>
+    
 
   );
 }

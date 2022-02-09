@@ -16,15 +16,13 @@ function App() {
 
         <Router>
           <Navbar />
-          <MessengerCustomerChat
-            pageId="101589709123007"
-            appId="481482256871485"
-          />
+
           <Switch>
             <Route path="/" exact component={Home} />
           </Switch>
         </Router>
       </Carousel>
+      <MessengerCustomerChat pageId="101589709123007" appId="481482256871485" />
     </>
   );
 }
