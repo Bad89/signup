@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick= {closeMobileMenu}>
-            PET klinik  <i class="fas fa-paw" />
+          <i class="fas fa-paw" /> PET klinik 
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />

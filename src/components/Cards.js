@@ -5,7 +5,7 @@ import "./Cards.css";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Chek Chat on right bottom for consultation before action</h1>
+      <h1>Check & Chat on right bottom for consultation before action</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
