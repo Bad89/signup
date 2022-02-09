@@ -13,7 +13,7 @@
   
   .btn--primary {
     background-color: transparent;
-    color: #242424;
+    color: #aaaaaa;
     border: 1px solid transparent;
     
   }
@@ -38,8 +38,8 @@
   
   .btn--medium:hover,
   .btn--large:hover {
-    background: #fff;
-    color: #242424;
+    background: rgba(250, 2, 2, 0.925);
+    color: #000000;
     transition: all 0.3s ease-out;
   }
   
