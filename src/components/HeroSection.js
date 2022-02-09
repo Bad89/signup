@@ -3,12 +3,13 @@ import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
 
-
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 function HeroSection() {
   return (
 
-
+<Carousel>
 
     <div className="hero-container">
       {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
@@ -32,6 +33,8 @@ function HeroSection() {
         </Button>
       </div>
     </div>
+
+    </Carousel>
 
    
 
