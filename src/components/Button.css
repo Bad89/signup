@@ -8,12 +8,14 @@
     outline: none;
     border: none;
     cursor: pointer;
+    
   }
   
   .btn--primary {
     background-color: transparent;
     color: #242424;
     border: 1px solid transparent;
+    
   }
   
   .btn--outline {
