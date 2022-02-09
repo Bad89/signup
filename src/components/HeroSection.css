@@ -9,10 +9,10 @@ video {
 
  
 .hero-container {
-  background: url(/public/images/petBackground.jpg) center center/cover
+  background: url(/public/images/pets-wallpaper-hd-1200x720-340727.jpg) center center/cover
     no-repeat;
   background-size: initial;
-  height: 50vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
