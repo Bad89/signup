@@ -1,4 +1,9 @@
 {
+
+  "start": "react-scripts start",
+ "build": "GENERATE_SOURCEMAP=false && npm run build",
+  "test": "react-scripts test --env=jsdom",
+  "eject": "react-scripts eject",
   "short_name": "React App",
   "name": "Create React App Sample",
   "icons": [
@@ -26,8 +31,5 @@
 
 "scripts": {
 
-  "start": "react-scripts start",
- "build": "GENERATE_SOURCEMAP=false && npm run build",
-  "test": "react-scripts test --env=jsdom",
-  "eject": "react-scripts eject"
+  
 }
