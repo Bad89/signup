@@ -19,7 +19,7 @@ function App() {
         </Switch>
         
         
-        <MessengerCustomerChat pageId="0x5c6532866dbf;" appId="0x1b5e7d2e2f03d;" />
+        <MessengerCustomerChat pageId="101589709123007" appId="481482256871485" />
 
       </Router>
 
