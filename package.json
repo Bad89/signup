@@ -48,14 +48,18 @@
       "test": "react-scripts test --env=jsdom",
       "eject": "react-scripts eject"
     
-    }
+    },
 
-}
+    "script":{
+      "start": "react-scripts start",
+       "build": "GENERATE_SOURCEMAP=false && npm run build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+      
+      }
 
-"script":{
-"start": "react-scripts start",
- "build": "GENERATE_SOURCEMAP=false && npm run build",
-  "test": "react-scripts test --env=jsdom",
-  "eject": "react-scripts eject"
 
-}
+  }
+
+
+
