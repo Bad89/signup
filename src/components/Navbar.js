@@ -42,7 +42,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link
-                to="/Adoption-Pet"
+                to="/adoption-Pet"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >

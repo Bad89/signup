@@ -10,11 +10,10 @@
 
 
 
-
-.home,
-.services,
-.products,
-.sign-up {
+.adoption,
+.article,
+.store,
+.home {
   
   display: flex;
   height: 90vh;
@@ -28,7 +27,7 @@
   
 
 
-.services {
+  .adoption {
   background-image: url("/public/images/img-2.jpg");
   background-position: center;
   background-size: cover;
@@ -37,7 +36,9 @@
   font-size: 100px;
 }
 
-.products {
+
+.article {
+
   background-image: url("/public/images/img-1.jpg");
   background-position: center;
   background-size: fill;
@@ -46,7 +47,8 @@
   font-size: 100px;
 }
 
-.sign-up {
+
+.store {
   background-image: url("/public/images/img-8.jpg");
   background-position: center;
   background-size: cover;
