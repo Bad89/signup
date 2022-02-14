@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 
-// cek
+// cek-out
 
 ReactDOM.render(
   
