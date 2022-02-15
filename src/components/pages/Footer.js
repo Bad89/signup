@@ -6,10 +6,10 @@ function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">
+        <p className="footer-subscription-heading, btn--outline">
           Activity Payment with Shopee
         </p>
-        <p className="footer-subscription-text">enjoi on this web</p>
+        <p className="footer-subscription-text, btn--outline">enjoi on this web</p>
         <div>
           <form>
             <input
