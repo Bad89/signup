@@ -5,6 +5,9 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 import Adoption from './components/pages/Adoption';
+import Article from './components/pages/Article';
+import Store from './components/pages/Store';
+
 
 function App() {
   return (
@@ -16,6 +19,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path='/adoption-Pet' component={Adoption} />
+          <Route path='/article' component={Article} />
+          <Route path='/store' component={Store} />
         </Switch>
         
         

@@ -16,10 +16,10 @@ function Navbar() {
     } else {
       setButton(true);
     }
-  };
+  }
 
   useEffect(() => {
-      showButton();
+    showButton();
   }, []);
 
   window.addEventListener("resize", showButton);
@@ -28,8 +28,8 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick= {closeMobileMenu}>
-          <i class="fas fa-paw" /> PET klinik 
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+            <i class="fas fa-paw" /> PET klinik
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -58,8 +58,17 @@ function Navbar() {
                 ARTICLE upComing
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link
+                to="/sign-up"
+                className="nav-links"
+                onClick={closeMobileMenu}>
+                  Sign Up
+              </Link>
+            </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">HOME upComing</Button>}
+          {button && <Button buttonStyle="btn--outline">Sign Up</Button>}
         </div>
       </nav>
     </>
