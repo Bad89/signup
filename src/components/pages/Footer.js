@@ -11,16 +11,15 @@ function Footer() {
         </p>
         <p className="footer-subscription-text">enjoi on this web</p>
         <div>
-          {/* <form>
+          <form>
             <input
               type="email"
               name="email"
-              placeholder="your Email"
+              placeholder="Your Email"
               className="footer-input"
-            >
-              <Button buttonStyle="btn--outline">Subscribe</Button>
-            </input>
-          </form> */}
+            />
+              <Button buttonStyle="btn--outline">EXPLORE</Button>
+          </form>
         </div>
       </section>
     </div>
