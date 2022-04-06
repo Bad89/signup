@@ -11,12 +11,12 @@ function Navbar() {
   const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
-    if (window.innerWidth <= 960) {
+    if (window.innerWidth <= 450) {
       setButton(false);
     } else {
       setButton(true);
     }
-  }
+  };
 
   useEffect(() => {
     showButton();
@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <i class="fas fa-paw" /> PET klinik
+            <i class="" /> LOGO
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -61,10 +61,10 @@ function Navbar() {
 
             <li className="nav-item">
               <Link
-                to="/sign-up"
+                to="/sign-in"
                 className="nav-links"
                 onClick={closeMobileMenu}>
-                  Sign Up
+                  Sign In
               </Link>
             </li>
           </ul>

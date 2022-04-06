@@ -14,9 +14,9 @@ function HeroSection() {
     <div className="hero-container">
       {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
 
-      <h1>EXPLORE YOUR PET</h1>
-      <h2>Free consultation with Veterinarian</h2>
-      <h3> until 2022 April!</h3>
+      <h1>check image1</h1>
+      <h2></h2>
+      <h3></h3>
       
       
 
