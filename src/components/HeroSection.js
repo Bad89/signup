@@ -15,8 +15,8 @@ function HeroSection() {
       {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
 
       <h1>check image1</h1>
-      <h2></h2>
-      <h3></h3>
+      <h2>tes1</h2>
+      <h3>tes2</h3>
       
       
 
